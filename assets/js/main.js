@@ -143,10 +143,6 @@ document.addEventListener('DOMContentLoaded', () => {
   new Swiper('.slides-1', {
     speed: 600,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
     slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',
@@ -165,10 +161,6 @@ document.addEventListener('DOMContentLoaded', () => {
   new Swiper('.slides-3', {
     speed: 600,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
     slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',
@@ -198,10 +190,6 @@ document.addEventListener('DOMContentLoaded', () => {
     speed: 400,
     loop: true,
     centeredSlides: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
     slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',
